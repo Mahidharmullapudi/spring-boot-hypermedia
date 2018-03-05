@@ -1,5 +1,6 @@
 # spring-boot-hypermedia
 Spring Boot application to configure hypermedia api and data rest to make use Hypermedia urls.
+This application makes use of varous Spring core, web, data, io, and ops dependencies. Configured in memory database using H2 support. 
 
 To run the application, follow below steps:
 1. Open command prompt/terminal.
@@ -18,7 +19,4 @@ To run the application, follow below steps:
 
 
 You can also check all the rest endpoints using hal browser using the dependency spring-data-rest-hal-browser
-and you can access hal browser on the browser at http://localhost:8080/ 
-
-
-
+and you can access hal browser on the browser at http://localhost:8080/
