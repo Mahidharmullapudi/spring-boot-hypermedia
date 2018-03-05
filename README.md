@@ -11,7 +11,7 @@ To run the application, follow below steps:
 5. You can also use below commands in the command line
     > curl -i http://localhost:8080/posts/2/author
     > curl -i http://localhost:8080/author/1
-6. After adding search in the repository interface, we can do something like below:
+6. After adding custom query support in the repository interface, we can search for entries like below:
     > curl -i http://localhost:8080/posts/search/findByTitleContaining?title=Angular"    
 7. To use projections you can play with commands like below:
     > curl -i http://localhost:8080/posts/2?projection=title
